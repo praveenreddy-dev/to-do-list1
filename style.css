@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+  }
+  
+  #taskContainer {
+    margin-top: 50px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  li span {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button.add-btn {
+    background-color: #4caf50;
+    color: #fff;
+    margin-left: 5px;
+  }
+  
+  button.edit-btn {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  button.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  li.checked {
+    text-decoration: line-through;
+    background-color: #f1f1f1;
+  }
+  
+  input[type="text"] {
+    width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  button,
+  input[type="text"] {
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  button:hover,
+  button:focus,
+  input[type="text"]:hover,
+  input[type="text"]:focus {
+    background-color: #333;
+    color: #fff;
+    outline: none;
+  }
+  
+  /* Add any additional styles or modifications here */
+  .inputFiledContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    
+  }
+ 
