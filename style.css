@@ -106,7 +106,7 @@ input[type="text"]:focus {
 /* Responsive styles using media queries */
 
 /* For screens up to 600px wide */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   /* Adjust the width of the input field for smaller screens */
   input[type="text"] {
     width: 100%;
@@ -119,7 +119,7 @@ input[type="text"]:focus {
 }
 
 /* For screens up to 400px wide */
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   /* Further adjustments for smaller screens */
   #taskContainer {
     max-width: 90%;
