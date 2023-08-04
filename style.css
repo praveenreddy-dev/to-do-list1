@@ -53,13 +53,11 @@ button.add-btn {
 }
 
 button.edit-btn {
-  background-color: #ffc107;
-  color: #333;
+
 }
 
 button.delete-btn {
-  background-color: #f44336;
-  color: #fff;
+  
 }
 
 li.checked {
@@ -129,3 +127,24 @@ input[type="text"]:focus {
     font-size: 12px;
   }
 }
+.checked{
+  text-decoration: line-through;
+  color: red;
+  cursor: pointer;
+  user-select: none;
+}
+button.edit-btn:hover {
+  background-color: #b0e57c !important;
+  color: #006400;
+
+}
+
+button.delete-btn:hover {
+  background-color: #ff9999 !important;
+  color: #990000;
+
+}
+
+
+
+
